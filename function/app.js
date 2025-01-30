@@ -91,3 +91,22 @@ function isSameNumbers(num1, num2) {
   };
 
 
+  /**
+   * 正方形の面積と周囲の長さを計算するオブジェクト
+   * sideを使用して面積と周囲の長さを計算するメソッド
+   */
+  const square1 = {
+    /**
+     * 正方形の面積を計算するメソッド
+     */
+    area(side) {
+      return side * side;
+    },
+
+    /**
+     * 正方形の周囲の長さを計算するメソッド
+     */
+    perimeter(side) {
+      return side * 4;
+    }
+  };
