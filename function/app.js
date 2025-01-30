@@ -80,3 +80,14 @@ function isSameNumbers(num1, num2) {
   function returnDayObject(num) {
     return daysObject[num] || null;
   }
+
+  /**
+   * 数字を受け取り、その数字の2乗を返す関数式
+   * 乗算演算子を使わずに2乗を計算する
+   */
+  const square = function(num) {
+    // Math.pow()メソッドを使用して2乗を計算
+    return Math.pow(num, 2);
+  };
+
+
