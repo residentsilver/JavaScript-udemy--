@@ -110,3 +110,17 @@ function isSameNumbers(num1, num2) {
       return side * 4;
     }
   };
+
+  /**
+   * 卵を産むヘレンというオブジェクト
+   * nameプロパティと卵の数を追跡するeggCountプロパティを持つ
+   * layAnEggメソッドで卵を産む
+   */
+  const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg() {
+      this.eggCount += 1;
+      return 'EGG';
+    }
+  };
