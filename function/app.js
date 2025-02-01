@@ -142,3 +142,5 @@ const fullNames = [
 ];
 
 const firstNames = fullNames.map(person => person.first)
+
+const greet = (name) => `Hey ${name}!`;
