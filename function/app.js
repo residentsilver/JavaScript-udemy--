@@ -151,3 +151,11 @@ const greet = (name) => `Hey ${name}!`;
 const validUserNames = (names) => {
   return names.filter(name => name.length < 10);
 };
+
+
+/**
+ * 配列内のすべての要素が偶数かどうかをチェックする関数
+ */
+const allEvens = (arr) => {
+  return arr.every(num => num % 2 === 0);
+};
