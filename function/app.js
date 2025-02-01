@@ -144,3 +144,10 @@ const fullNames = [
 const firstNames = fullNames.map(person => person.first)
 
 const greet = (name) => `Hey ${name}!`;
+
+/**
+ * 文字列の長さが10文字未満のユーザー名のみをフィルタリングする関数
+ */
+const validUserNames = (names) => {
+  return names.filter(name => name.length < 10);
+};
